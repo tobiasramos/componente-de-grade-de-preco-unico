@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    width: 1440px;
+    background-color:  hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.container {
+    margin: 90px auto;
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.titulo, 
+.sub-titulo, 
+.frase {
+    margin-left: 30px;
+}
+
+.titulo {
+    position: relative;
+    top: 30px;
+    font-size: 22px;
+
+    color: hsl(179, 62%, 43%);
+}
+
+.sub-titulo {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: hsl(71, 73%, 54%);
+    font-size: 20px;
+}
+
+.frase {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #B0C4DE;
+}
+
+.info {
+    display: flex;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.valor {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.valor span {
+    font-size: 15px;
+    margin-left: 5px;
+    color: #B0C4DE;
+}
+
+
+.info h3, p, .valor {
+    margin-left: 30px;
+}
+
+.info h3 {
+    margin-top: 35px;
+}
+
+.lista {
+    margin-top: 15px;
+
+}
+
+.lista li {
+  margin-left: 15px;
+  list-style-type: none;
+  font-size: 15px;
+  margin-left: 30px;
+
+  color: #B0C4DE;
+}
+
+.info button {
+    color: #fff;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 8px;
+
+    width: 220px;
+    height: 38px;
+
+    margin-top: 20px;
+
+    margin-left: 36px;
+
+}
+
+.verde-escuro,
+.verde-claro {
+    width: 50%;
+    height: 233px;
+    border-bottom: 0em;
+}
+
+.verde-escuro {
+    background-color: #008080;
+}
+
+.verde-claro {
+    background-color: #20B2AA;
+
+}
